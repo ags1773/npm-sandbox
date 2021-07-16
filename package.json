@@ -1,0 +1,23 @@
+{
+  "name": "npm-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "./standard-version-release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ags1773/npm-sandbox.git"
+  },
+  "author": "Amogh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ags1773/npm-sandbox/issues"
+  },
+  "homepage": "https://github.com/ags1773/npm-sandbox#readme",
+  "dependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
